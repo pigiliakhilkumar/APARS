@@ -84,7 +84,7 @@ class ExportRequest(BaseModel):
     """Request model for exporting results"""
     sequence: str
     results: dict
-    format: str = Field("pdf", regex="^(pdf|csv|json)$")
+    format: str = Field("pdf", pattern="^(pdf|csv|json)$")
 
 
 # ============================================================================
