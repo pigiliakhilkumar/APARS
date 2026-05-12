@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">APARS</span>
             </div>
             <p className="text-sm text-slate-400 mb-4">
-              AI-Powered Protein Analysis and Research Suite. Free, open-source bioinformatics tools for researchers worldwide.
+              Developed by Akhil.
             </p>
             <div className="flex items-center gap-3">
               <a href="#" className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 transition-colors">
